@@ -4,4 +4,4 @@
 # $OPENSHIFT_DIY_IP:8080
 
 cd $OPENSHIFT_REPO_DIR/elasticsearch
-./bin/elasticsearch > $OPENSHIFT_DIY_DIR/logs/server.log 2>&1
+./bin/elasticsearch >> $OPENSHIFT_DIY_DIR/logs/server.log 2>&1
