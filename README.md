@@ -1,3 +1,11 @@
-The OpenShift `diy` cartridge documentation can be found at:
+# ElasticSearch Openshift Quickstart
 
-https://github.com/openshift/origin-server/tree/master/cartridges/openshift-origin-cartridge-diy/README.md
+Instalação do ElasticSearch em forma de quickstart. Para criar uma aplicação ES, execute o comando:
+
+```
+$ rhc app create elasticsearch -t diy --from-code https://github.com/caruccio/openshift-elasticsearch-quickstart.git
+```
+
+Para atualizar, baixe a nova versao em http://www.elasticsearch.org/ e substitua o conteúdo do diretorio `elasticsearch`.
+
+Ainda não existe suporte para cluster. Voluntários?
