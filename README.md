@@ -10,6 +10,9 @@ Instalação do ElasticSearch em forma de quickstart.
 $ rhc app create elasticsearch -t diy --from-code https://github.com/caruccio/openshift-elasticsearch-quickstart.git
 ```
 
+Agora é só apontar seu navegador para `http://elasticsearch-$namespace.getup.io`.
+
+
 Para atualizar o código, baixe a nova versao em http://www.elasticsearch.org/ e substitua o conteúdo do diretorio `elasticsearch`.
 
 Ainda não existe suporte para cluster. Voluntários?
